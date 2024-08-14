@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    background-image: url("Untitled\ design\ \(5\).png");
+    background-size:cover;
+    
+}
+
+.container{
+    height: 500px;
+    width: 400px;
+    /* background-color: black; */
+    color:white;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+
+}
+ .titlecard{
+    height:130px;
+    width: 400px;
+    /* background-color: pink; */
+    text-align: center;
+    /* position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%); */
+
+ }
+ .title{
+    font-size: 60px;
+    color: black;
+    
+ }
+ .title span{
+    color:#E57C23;
+   
+ }
+
+ .desc{
+    font-size: 20px;
+    color:#243763;
+   
+ }
+.inputcard{
+    width: 400px;
+    height:40px;
+    /* background-color: aquamarine; */
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputcard input{
+    height:35px;
+    width: 300px;
+    outline: none;
+    border: 1.5px solid #01204E;
+    font-size:16px;
+}
+.inputcard input:hover{
+    border: 1.2px solid #FF8F00;
+}
+
+.inputcard button{
+    height: 35px;
+    width: 75px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+.outputcard{
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+.tempcard{
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+}
+.citynamecard p{
+    width: 400px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+#country-name{
+    /* color:#FCBF1E; */
+    color:#FF8F00;
+   
+}
+.tempcard p{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 4px;
+    color:#1F4690;
+}
+#loc-time{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 20px;
+    color: #000839;
+   
+}
